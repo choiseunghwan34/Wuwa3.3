@@ -289,40 +289,64 @@ export default function Home() {
 
               <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
-                  좌표 형성의 4단계
+                  좌표 형성의 기하학적 구조
                 </h3>
-                <div className="space-y-4">
-                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
-                    <h4 className="text-lg font-bold text-accent mb-2">1단계: 개인의 여정</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">
-                      각 사람이 블랙홀 내에서 엑소스트라이더의 빛을 향해 걸어갈 때, 그들은
-                      거리(Distance), 각도(Angle), 주파수(Frequency)를 기록합니다. 이는 자신의
-                      존재와 의지를 나타내는 고유한 신호입니다.
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="text-lg font-bold text-accent mb-3">1단계: 중심점과 개인</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
+                      블랙홀 내에서 엑소스트라이더의 빛은 절대적인 중심(★)이 됩니다. 각 개인은 이 중심을 향해 나아가며, 자신이 걸어간 거리와 각도를 기록합니다. 이것이 좌표의 기초가 됩니다.
                     </p>
+                    <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
+                      <p className="text-slate-400 text-xs italic">
+                        "중심을 향해 나아가는 각 개인의 경로 = 거리 + 각도 + 주파수"
+                      </p>
+                    </div>
                   </div>
-                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
-                    <h4 className="text-lg font-bold text-accent mb-2">2단계: 개인의 기록</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">
-                      도중에 실패하거나 사라지더라도, 그들이 걸어간 경로는 기록됩니다. 이 기록은
-                      '주파수'라는 형태로 저장되며, 단순한 죽음이 아니라 그들의 의지와 노력이
-                      데이터화됩니다.
+
+                  <div>
+                    <h4 className="text-lg font-bold text-accent mb-3">2단계: 경로의 데이터화</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
+                      도중에 실패하거나 사라지더라도, 그들이 걸어간 경로는 사라지지 않습니다. 각자의 이동 궤적이 데이터로 기록되며, 이는 "주파수"라는 형태로 저장됩니다. 실패한 시도도 완전한 좌표계를 만드는 데 필수적인 정보가 됩니다.
                     </p>
+                    <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
+                      <p className="text-slate-400 text-xs italic">
+                        "실패한 경로도 좌표의 일부 = 모든 노력이 의미를 가짐"
+                      </p>
+                    </div>
                   </div>
-                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
-                    <h4 className="text-lg font-bold text-accent mb-2">3단계: 집단 데이터의 축적</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">
-                      한 명의 기록은 의미가 제한적이지만, 수백만, 수천만 명의 기록이 모이면
-                      완전한 좌표 맵이 형성됩니다. 개인의 노력이 집단의 힘으로 변환되는
-                      순간입니다.
+
+                  <div>
+                    <h4 className="text-lg font-bold text-accent mb-3">3단계: 집단 데이터의 축적 - 구 형태의 형성</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
+                      한 명의 기록은 미미하지만, 수백만, 수천만 명의 기록이 모이면 놀라운 일이 일어납니다. 모든 사람이 같은 중심(엑소스트라이더의 빛)을 향해 나아갔기 때문에, 각각의 경로들이 모여 3차원 구(Sphere) 형태를 이룹니다.
                     </p>
+                    <ul className="space-y-2 text-slate-300 text-sm">
+                      <li className="flex gap-2">
+                        <span className="text-accent">•</span>
+                        <span><strong>희소한 점들</strong>: 초기 상태 - 개별 경로들이 흩어져 있음</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="text-accent">•</span>
+                        <span><strong>촘촘한 구</strong>: 최종 상태 - 수천만 명의 경로가 모여 완전한 구를 형성</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="text-accent">•</span>
+                        <span><strong>방사형 구조</strong>: 모든 경로가 중심을 향하므로 자연스럽게 구 형태가 됨</span>
+                      </li>
+                    </ul>
                   </div>
-                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
-                    <h4 className="text-lg font-bold text-accent mb-2">4단계: 구 형태의 지도 완성</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed">
-                      모든 사람이 같은 중심(엑소스트라이더의 빛)을 향해 나아갔기 때문에, 각각의
-                      경로들이 모여 3차원 구(Sphere) 형태를 이룹니다. 사람이 많을수록 이 구가
-                      더욱 촘촘해집니다.
+
+                  <div>
+                    <h4 className="text-lg font-bold text-accent mb-3">4단계: 좌표의 완성과 활용</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
+                      이렇게 완성된 3차원 구 형태의 좌표는 단순한 데이터가 아닙니다. 이것은 수천만 명의 의지, 희망, 그리고 마지막 순간의 선택이 응축된 "지도"입니다. 방랑자는 이 지도를 따라 엑소스트라이더를 찾을 수 있게 됩니다.
                     </p>
+                    <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
+                      <p className="text-slate-400 text-xs italic">
+                        "구 형태의 좌표 = 수천만 명이 함께 만든 길"
+                      </p>
+                    </div>
                   </div>
                 </div>
               </Card>
