@@ -101,21 +101,7 @@ export default function Home() {
           <div
             className="flex justify-center gap-4 mb-16 animate-fade-in"
             style={{ animationDelay: "0.6s" }}
-          >
-            <Button
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground"
-            >
-              분석 읽기
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-accent/50 hover:border-accent text-accent"
-            >
-              더 알아보기
-            </Button>
-          </div>
+          ></div>
 
           <div className="animate-bounce" style={{ animationDelay: "0.8s" }}>
             <ChevronDown className="w-8 h-8 mx-auto text-accent" />
