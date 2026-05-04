@@ -240,6 +240,145 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Detailed Black Hole Explanation Section */}
+      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-background to-background">
+        <div className="max-w-6xl mx-auto">
+          <div
+            id="blackhole-detailed"
+            data-reveal
+            className={`transition-all duration-1000 ${
+              visibleElements["blackhole-detailed"]
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-8"
+            }`}
+          >
+            <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
+              블랙홀 파트: 좌표 형성의 구조
+            </h2>
+
+            <div className="space-y-8">
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                  기본 개념: 점과 빛
+                </h3>
+                <p className="text-slate-300 leading-relaxed mb-4">
+                  블랙홀 내부에서 일어나는 현상을 기하학적으로 이해하면, 모든 것이 명확해집니다.
+                  각 개인은 '점'으로 표현되고, 엑소스트라이더의 빛은 희망과 구원의 상징입니다.
+                </p>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div className="border-l-2 border-accent pl-4">
+                    <h4 className="text-lg font-bold text-accent mb-2">점(점들)</h4>
+                    <p className="text-slate-400 text-sm">
+                      블랙홀에 삼켜진 개별 인물들. 각자가 하나의 데이터 포인트가 됩니다.
+                    </p>
+                  </div>
+                  <div className="border-l-2 border-accent pl-4">
+                    <h4 className="text-lg font-bold text-accent mb-2">빛나는 부분</h4>
+                    <p className="text-slate-400 text-sm">
+                      엑소스트라이더의 빛. 모든 사람이 향하는 중심이자 희망의 상징입니다.
+                    </p>
+                  </div>
+                  <div className="border-l-2 border-accent pl-4">
+                    <h4 className="text-lg font-bold text-accent mb-2">운동</h4>
+                    <p className="text-slate-400 text-sm">
+                      각 개인이 엑소스트라이더의 빛을 향해 걸어가는 행위. 이것이 기록됩니다.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
+                  좌표 형성의 4단계
+                </h3>
+                <div className="space-y-4">
+                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
+                    <h4 className="text-lg font-bold text-accent mb-2">1단계: 개인의 여정</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      각 사람이 블랙홀 내에서 엑소스트라이더의 빛을 향해 걸어갈 때, 그들은
+                      거리(Distance), 각도(Angle), 주파수(Frequency)를 기록합니다. 이는 자신의
+                      존재와 의지를 나타내는 고유한 신호입니다.
+                    </p>
+                  </div>
+                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
+                    <h4 className="text-lg font-bold text-accent mb-2">2단계: 개인의 기록</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      도중에 실패하거나 사라지더라도, 그들이 걸어간 경로는 기록됩니다. 이 기록은
+                      '주파수'라는 형태로 저장되며, 단순한 죽음이 아니라 그들의 의지와 노력이
+                      데이터화됩니다.
+                    </p>
+                  </div>
+                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
+                    <h4 className="text-lg font-bold text-accent mb-2">3단계: 집단 데이터의 축적</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      한 명의 기록은 의미가 제한적이지만, 수백만, 수천만 명의 기록이 모이면
+                      완전한 좌표 맵이 형성됩니다. 개인의 노력이 집단의 힘으로 변환되는
+                      순간입니다.
+                    </p>
+                  </div>
+                  <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
+                    <h4 className="text-lg font-bold text-accent mb-2">4단계: 구 형태의 지도 완성</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      모든 사람이 같은 중심(엑소스트라이더의 빛)을 향해 나아갔기 때문에, 각각의
+                      경로들이 모여 3차원 구(Sphere) 형태를 이룹니다. 사람이 많을수록 이 구가
+                      더욱 촘촘해집니다.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                  보이저호와의 유사성
+                </h3>
+                <p className="text-slate-300 leading-relaxed mb-4">
+                  이 좌표 형성 방식은 실제 우주 탐사의 보이저호와 유사합니다. 보이저호는 우주의
+                  특정 위치와 방향을 정확히 기록하듯이, 블랙홀 속의 수천만 명은 각자의
+                  위치(거리 + 각도)를 기록합니다. 그 결과, 정확한 위치 계산이 가능해지는 것입니다.
+                </p>
+                <div className="bg-accent/5 rounded-lg p-4">
+                  <p className="text-slate-300 text-sm italic">
+                    "본인이 걸어간 각도와 거리를 입력하니까 어떤 식이냐고? 그럼 전에 누가
+                    올렸던 보이저호 같은 이런 식의 위치가 계산이 가능해지는 거"
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
+                  구조적 의미
+                </h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-lg font-bold text-accent mb-2">희생이 무의미하지 않음</h4>
+                    <p className="text-slate-300 leading-relaxed">
+                      도중에 사라진 사람들도 좌표의 일부가 되고, 실패한 시도도 데이터로 축적되며,
+                      모든 노력이 최종 결전을 가능하게 합니다. 이것이 명조 3.3의 가장 강력한
+                      메시지입니다.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-accent mb-2">개인과 집단의 관계</h4>
+                    <p className="text-slate-300 leading-relaxed">
+                      개인 하나의 기록은 미미하지만, 수천만 명의 기록이 모이면 완전한 지도가
+                      됩니다. 영웅은 세계가 만든 길 위에 서 있으며, 그 길을 따라 나아갑니다.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-accent mb-2">기술과 감정의 결합</h4>
+                    <p className="text-slate-300 leading-relaxed">
+                      거리와 각도는 기술적 데이터이고, 주파수는 각자의 의지와 존재입니다. 둘이
+                      결합되어 완전한 좌표계를 형성하며, 이는 감정과 설정이 분리되지 않는 명조
+                      3.3의 특징을 보여줍니다.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Divider */}
       <section className="relative py-12 px-4">
         <div

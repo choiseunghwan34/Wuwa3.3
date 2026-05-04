@@ -179,4 +179,107 @@
       max-width: 1280px; /* Standard content width */
     }
   }
+
+  /* Enhanced section backgrounds with animated gradients */
+  section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(
+      ellipse at 50% 0%,
+      rgba(168, 216, 255, 0.03) 0%,
+      transparent 70%
+    );
+    pointer-events: none;
+  }
+
+  /* Animated gradient text for headings */
+  .gradient-text {
+    background: linear-gradient(135deg, #a8d8ff 0%, #d8a8ff 50%, #a8d8ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 6s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0%, 100% {
+      background: linear-gradient(135deg, #a8d8ff 0%, #d8a8ff 50%, #a8d8ff 100%);
+    }
+    50% {
+      background: linear-gradient(135deg, #d8a8ff 0%, #a8d8ff 50%, #d8a8ff 100%);
+    }
+  }
+
+  /* Glow effect for accent colors */
+  .glow-accent {
+    text-shadow: 0 0 20px rgba(168, 216, 255, 0.5),
+                 0 0 40px rgba(168, 216, 255, 0.3);
+  }
+
+  /* Smooth scroll reveal animation */
+  [data-reveal] {
+    animation: revealOnScroll 0.8s ease-out forwards;
+  }
+
+  @keyframes revealOnScroll {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Enhanced card styling with depth */
+  .card {
+    position: relative;
+    background: linear-gradient(
+      135deg,
+      rgba(33, 33, 44, 0.5) 0%,
+      rgba(20, 20, 30, 0.5) 100%
+    );
+    border: 1px solid rgba(168, 216, 255, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card:hover {
+    border-color: rgba(168, 216, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(168, 216, 255, 0.1),
+                inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+  }
+
+  /* Accent color glow on hover */
+  .accent-glow {
+    position: relative;
+  }
+
+  .accent-glow::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      circle at center,
+      rgba(168, 216, 255, 0.1) 0%,
+      transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .accent-glow:hover::after {
+    opacity: 1;
+  }
 }
