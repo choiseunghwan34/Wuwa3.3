@@ -792,6 +792,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Aleph One Section */}
+      <section className="relative py-32 px-4 bg-gradient-to-b from-background via-slate-950 to-background overflow-hidden">
+        <div className="max-w-6xl mx-auto">
+          <div
+            id="aleph-one"
+            data-reveal
+            className={`transition-all duration-1000 ${
+              visibleElements["aleph-one"]
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-8"
+            }`}
+          >
+            <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent text-center">
+              알레프 원: 세계의 위협
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+              <div className="relative group">
+                <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/5 rounded-lg blur-2xl group-hover:blur-3xl transition-all duration-300" />
+                <img
+                  src="/manus-storage/pasted_file_TtxhNw_image_b89f9f61.png"
+                  alt="알레프 원"
+                  className="relative w-full h-auto rounded-lg shadow-2xl border border-accent/30 group-hover:border-accent/60 transition-all duration-300 transform group-hover:scale-105"
+                />
+              </div>
+              <div className="space-y-6">
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-6 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    거대한 눈
+                  </h3>
+                  <p className="text-slate-300 leading-relaxed">
+                    알레프 원은 단순한 적이 아닙니다. 그것은 우주 자체의 일부이며, 무한한 허무와 부정성을 상징합니다.
+                    거대한 눈 형태로 표현되는 알레프 원은 세계를 응시하고, 모든 것을 집어삼키려 합니다.
+                  </p>
+                </Card>
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-6 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    불완전한 승리
+                  </h3>
+                  <p className="text-slate-300 leading-relaxed">
+                    방랑자와 엑소스트라이더는 알레프 원을 완전히 소멸시키지 못합니다. 대신, 그것을 라하이 로이에서
+                    멀리 밀어내고 당장의 위협을 제거합니다. 이것은 완전한 종결이 아니라, 세계가 계속 존재할 수 있는
+                    기회를 얻은 것입니다.
+                  </p>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* One Line Summary */}
       <section className="relative py-24 px-4 bg-gradient-to-b from-background via-background to-background">
         <div className="max-w-6xl mx-auto">
@@ -818,13 +869,20 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="relative py-12 px-4 border-t border-border/30 bg-gradient-to-b from-background to-background/50">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-slate-400 text-sm">
-            명조 3.3: 별바다의 끝에서 닿은 메아리 분석
-          </p>
-          <p className="text-slate-500 text-xs mt-2">
+      <footer className="relative py-16 px-4 border-t border-border/30 bg-gradient-to-b from-background via-slate-950 to-background overflow-hidden">
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+        </div>
+        <div className="relative z-10 max-w-6xl mx-auto text-center">
+          <h3 className="text-2xl font-bold mb-4 font-playfair text-accent">
+            명조 3.3: 별바다의 끝에서 닿은 메아리
+          </h3>
+          <p className="text-slate-300 text-base mb-2">
             세계가 영웅을 구한다는 이야기의 구조적 의미
+          </p>
+          <p className="text-slate-500 text-xs mt-4">
+            수천만 명의 기록이 모여 만든 길 위에서, 영웅은 세계와 함께 싸운다.
           </p>
         </div>
       </footer>
