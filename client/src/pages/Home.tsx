@@ -115,90 +115,25 @@ export default function Home() {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-8 font-playfair text-accent">
-              서론
-            </h2>
-            <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-              <p className="text-slate-300 leading-relaxed text-lg mb-4">
-                본 분석은 명조 3.3 스토리의 핵심 주제와 구조적 특징을 탐구합니다.
-                단순한 영웅 서사를 넘어선 이 이야기의 깊이와 의미를 살펴봅니다.
-                특히, '세계가 영웅을 구한다'는 주제가 어떻게 서사 전반에 걸쳐
-                구현되는지 중점적으로 다룹니다.
-              </p>
-              <p className="text-slate-300 leading-relaxed text-lg">
-                명조 3.3은 단순히 연출이 좋은 이야기가 아닙니다. 가장 큰
-                차별점은 감정, 설정, 구조가 서로 분리되어 있지 않다는 점입니다.
-                희생은 데이터가 되고, 데이터는 좌표가 되며, 좌표는 길이 되어
-                결전을 가능하게 합니다. 이처럼 감정적 요소가 설정적 기능을
-                동시에 수행하기 때문에 이 스토리는 단순히 '슬픈 이야기'가 아니라,
-                스토리 구조 자체가 메시지를 전달하는 형태가 됩니다.
-              </p>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Core Theme Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-background to-background">
-        <div className="max-w-6xl mx-auto">
-          <div
-            id="theme-intro"
-            data-reveal
-            className={`mb-16 transition-all duration-1000 ${
-              visibleElements["theme-intro"]
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
-            }`}
-          >
             <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
-              핵심 주제: 세계가 영웅을 구한다
-            </h2>
-            <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 mb-8">
-              <p className="text-slate-300 leading-relaxed text-lg mb-4">
-                명조 3.3 스토리는 한 명의 영웅이 모든 것을 해결하는 전형적인
-                서사 구조를 거부합니다. 대신, 수많은 존재들의 기록과 의지가
-                결합되어 영웅이 최종 결전에 도달할 수 있는 '길'을 만들었다는
-                점을 강조합니다. 이는 영웅이 세계를 구원하는 것이 아니라,
-                세계가 영웅을 구원할 수 있도록 돕는다는 역설적인 주제로 이어집니다.
-              </p>
-              <p className="text-slate-300 leading-relaxed text-lg">
-                이 주제는 스토리의 모든 요소에 깊숙이 스며들어 있습니다. 보이드에
-                삼켜진 사람들의 기록부터 시작하여, 에이메스의 전달, 히유키의
-                지원, 콜렉티브의 기술, 그리고 최종 결전에 이르기까지 모든 것이
-                이 하나의 주제를 증명하기 위해 설계되었습니다.
-              </p>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Black Hole Part Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-background to-background">
-        <div className="max-w-6xl mx-auto">
-          <div
-            id="blackhole"
-            data-reveal
-            className={`transition-all duration-1000 ${
-              visibleElements["blackhole"]
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
-            }`}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
-              블랙홀 파트: 길을 만드는 이야기
+              스토리 개요
             </h2>
 
             <div className="space-y-8">
               <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  기록의 축적
+                  핵심 주제: 세계가 영웅을 구한다
                 </h3>
+                <p className="text-slate-300 leading-relaxed mb-4">
+                  명조 3.3의 가장 중요한 메시지는 "세계가 영웅을 구한다"는 것입니다.
+                  이것은 전통적인 영웅 서사를 뒤집는 개념입니다. 보통의 이야기에서
+                  영웅은 세상을 구하기 위해 혼자 싸웁니다. 하지만 3.3에서는 수많은
+                  사람들의 기록과 의지가 모여 하나의 영웅을 결전의 자리까지 데려갑니다.
+                </p>
                 <p className="text-slate-300 leading-relaxed">
-                  블랙홀 파트에서 가장 중요한 것은 보이드에 삼켜진 수많은
-                  사람들의 이동 기록입니다. 이들은 엑소스트라이더의 빛을 향해
-                  이동했고, 그 이동의 궤적이 모여 좌표를 형성합니다. 이것은
-                  단순한 데이터가 아닙니다. 이는 수많은 사람들의 의지, 희망,
-                  그리고 마지막 순간의 선택이 기록된 것입니다.
+                  방랑자는 세상의 영웅이 아니라, 세상이 만든 영웅입니다. 그가 알레프
+                  원과 싸울 수 있었던 것은 자신의 힘 때문이 아니라, 세계 전체가 그를
+                  위해 길을 만들어주었기 때문입니다.
                 </p>
               </Card>
 
@@ -238,6 +173,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Divider */}
+      <section className="relative py-12 px-4">
+        <div
+          className="max-w-6xl mx-auto h-32 bg-cover bg-center opacity-60"
+          style={{
+            backgroundImage:
+              "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/section-divider-MEyavTT2mkvSj4VHcgrq9K.webp')",
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+          }}
+        />
       </section>
 
       {/* Detailed Black Hole Explanation Section */}
@@ -291,12 +240,13 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
                   좌표 형성의 기하학적 구조
                 </h3>
-                <div className="space-y-6">
+                <div className="space-y-8">
                   <div>
-                    <h4 className="text-lg font-bold text-accent mb-3">1단계: 중심점과 개인</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
+                    <h4 className="text-lg font-bold text-accent mb-4">1단계: 중심점과 개인</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-4">
                       블랙홀 내에서 엑소스트라이더의 빛은 절대적인 중심(★)이 됩니다. 각 개인은 이 중심을 향해 나아가며, 자신이 걸어간 거리와 각도를 기록합니다. 이것이 좌표의 기초가 됩니다.
                     </p>
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/blackhole_diagram_1_center-hCpUXvVHXKvJqKGvQYNNXL.webp" alt="중심점과 개인" className="rounded-lg mb-4 w-full max-w-md" />
                     <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
                       <p className="text-slate-400 text-xs italic">
                         "중심을 향해 나아가는 각 개인의 경로 = 거리 + 각도 + 주파수"
@@ -305,10 +255,11 @@ export default function Home() {
                   </div>
 
                   <div>
-                    <h4 className="text-lg font-bold text-accent mb-3">2단계: 경로의 데이터화</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
+                    <h4 className="text-lg font-bold text-accent mb-4">2단계: 경로의 데이터화</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-4">
                       도중에 실패하거나 사라지더라도, 그들이 걸어간 경로는 사라지지 않습니다. 각자의 이동 궤적이 데이터로 기록되며, 이는 "주파수"라는 형태로 저장됩니다. 실패한 시도도 완전한 좌표계를 만드는 데 필수적인 정보가 됩니다.
                     </p>
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/blackhole_diagram_2_path-FVt9wKVvqVJQKPKvqVJQKP.webp" alt="경로의 데이터화" className="rounded-lg mb-4 w-full max-w-md" />
                     <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
                       <p className="text-slate-400 text-xs italic">
                         "실패한 경로도 좌표의 일부 = 모든 노력이 의미를 가짐"
@@ -317,10 +268,11 @@ export default function Home() {
                   </div>
 
                   <div>
-                    <h4 className="text-lg font-bold text-accent mb-3">3단계: 집단 데이터의 축적 - 구 형태의 형성</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
+                    <h4 className="text-lg font-bold text-accent mb-4">3단계: 집단 데이터의 축적 - 구 형태의 형성</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-4">
                       한 명의 기록은 미미하지만, 수백만, 수천만 명의 기록이 모이면 놀라운 일이 일어납니다. 모든 사람이 같은 중심(엑소스트라이더의 빛)을 향해 나아갔기 때문에, 각각의 경로들이 모여 3차원 구(Sphere) 형태를 이룹니다.
                     </p>
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/blackhole_diagram_3_sparse_dense-KVt9wKVvqVJQKPKvqVJQKP.webp" alt="구 형태의 형성" className="rounded-lg mb-4 w-full max-w-md" />
                     <ul className="space-y-2 text-slate-300 text-sm">
                       <li className="flex gap-2">
                         <span className="text-accent">•</span>
@@ -338,480 +290,345 @@ export default function Home() {
                   </div>
 
                   <div>
-                    <h4 className="text-lg font-bold text-accent mb-3">4단계: 좌표의 완성과 활용</h4>
-                    <p className="text-slate-300 text-sm leading-relaxed mb-3">
-                      이렇게 완성된 3차원 구 형태의 좌표는 단순한 데이터가 아닙니다. 이것은 수천만 명의 의지, 희망, 그리고 마지막 순간의 선택이 응축된 "지도"입니다. 방랑자는 이 지도를 따라 엑소스트라이더를 찾을 수 있게 됩니다.
+                    <h4 className="text-lg font-bold text-accent mb-4">4단계: 좌표의 완성과 활용 - 보이저호의 메시지</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                      이렇게 완성된 3차원 구 형태의 좌표는 단순한 데이터가 아닙니다. 이것은 수천만 명의 의지, 희망, 그리고 마지막 순간의 선택이 응축된 "지도"입니다. 마치 보이저호가 우주에 인류의 메시지를 담아 보낸 것처럼, 이 좌표는 모든 사람의 기록을 담은 우주의 메시지가 됩니다.
                     </p>
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/blackhole_voyager_coordinate-KVt9wKVvqVJQKPKvqVJQKP.webp" alt="보이저호 같은 좌표" className="rounded-lg mb-4 w-full max-w-2xl" />
                     <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
                       <p className="text-slate-400 text-xs italic">
-                        "구 형태의 좌표 = 수천만 명이 함께 만든 길"
+                        "구 형태의 좌표 = 수천만 명이 함께 만든 길 = 우주에 보낸 인류의 메시지"
                       </p>
                     </div>
                   </div>
                 </div>
               </Card>
-
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  보이저호와의 유사성
-                </h3>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  이 좌표 형성 방식은 실제 우주 탐사의 보이저호와 유사합니다. 보이저호는 우주의
-                  특정 위치와 방향을 정확히 기록하듯이, 블랙홀 속의 수천만 명은 각자의
-                  위치(거리 + 각도)를 기록합니다. 그 결과, 정확한 위치 계산이 가능해지는 것입니다.
-                </p>
-                <div className="bg-accent/5 rounded-lg p-4">
-                  <p className="text-slate-300 text-sm italic">
-                    "본인이 걸어간 각도와 거리를 입력하니까 어떤 식이냐고? 그럼 전에 누가
-                    올렸던 보이저호 같은 이런 식의 위치가 계산이 가능해지는 거"
-                  </p>
-                </div>
-              </Card>
-
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
-                  구조적 의미
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <h4 className="text-lg font-bold text-accent mb-2">희생이 무의미하지 않음</h4>
-                    <p className="text-slate-300 leading-relaxed">
-                      도중에 사라진 사람들도 좌표의 일부가 되고, 실패한 시도도 데이터로 축적되며,
-                      모든 노력이 최종 결전을 가능하게 합니다. 이것이 명조 3.3의 가장 강력한
-                      메시지입니다.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-bold text-accent mb-2">개인과 집단의 관계</h4>
-                    <p className="text-slate-300 leading-relaxed">
-                      개인 하나의 기록은 미미하지만, 수천만 명의 기록이 모이면 완전한 지도가
-                      됩니다. 영웅은 세계가 만든 길 위에 서 있으며, 그 길을 따라 나아갑니다.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-bold text-accent mb-2">기술과 감정의 결합</h4>
-                    <p className="text-slate-300 leading-relaxed">
-                      거리와 각도는 기술적 데이터이고, 주파수는 각자의 의지와 존재입니다. 둘이
-                      결합되어 완전한 좌표계를 형성하며, 이는 감정과 설정이 분리되지 않는 명조
-                      3.3의 특징을 보여줍니다.
-                    </p>
-                  </div>
-                </div>
-              </Card>
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Divider */}
-      <section className="relative py-12 px-4">
-        <div
-          className="max-w-6xl mx-auto h-32 bg-cover bg-center opacity-60"
-          style={{
-            backgroundImage:
-              "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/section-divider-MEyavTT2mkvSj4VHcgrq9K.webp')",
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-          }}
-        />
       </section>
 
       {/* Key Characters Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-background to-background">
-        <div className="max-w-6xl mx-auto">
-          <div
-            id="characters"
-            data-reveal
-            className={`transition-all duration-1000 ${
-              visibleElements["characters"]
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
-            }`}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
-              주요 인물 및 요소의 역할
-            </h2>
-
-            <div className="space-y-8">
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  보이드에 삼켜진 사람들의 기록
-                </h3>
-                <p className="text-slate-300 leading-relaxed">
-                  스토리에서 보이드에 삼켜진 사람들은 단순히 희생자로 남지
-                  않습니다. 그들의 이동 기록은 엑소스트라이더의 빛을 향해 쌓여
-                  '좌표'를 형성합니다. 이 좌표는 방랑자가 엑소스트라이더를 찾고
-                  결전에 나설 수 있는 물리적 기반이 됩니다. 이는 실패와 희생이
-                  무의미하게 사라지는 것이 아니라, 새로운 가능성을 만드는
-                  데이터이자 구조가 됨을 보여줍니다.
-                </p>
-              </Card>
-
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  에이메스의 역할
-                </h3>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  에이메스는 단순한 구출 대상이 아닙니다. 겉으로는 방랑자가
-                  에이메스를 구하러 가는 이야기처럼 보이지만, 실제로는 에이메스
-                  역시 방랑자를 구하는 역할을 합니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  에이메스는 보이드 너머의 기록을 받아내고, 그것을 전달 가능한
-                  형태로 변환합니다. 그녀는 수천만 명의 기록을 카세트 테이프라는
-                  형태로 현실에 연결합니다. 또한 결전에서는 리액터 드라이브
-                  레플리카를 통해 엑소스트라이더를 복구하는 데 중요한 역할을
-                  합니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed">
-                  즉, 에이메스는 단순히 '구원받는 인물'이 아닙니다. 그녀는
-                  세계의 기록을 방랑자에게 전달하는 매개자이며, 결전을 가능하게
-                  만든 또 하나의 주체입니다. 방랑자는 에이메스를 구하려고 했지만,
-                  결국 방랑자가 알레프 원과 싸울 수 있었던 것도 에이메스
-                  덕분입니다. 구하는 자와 구원받는 자의 관계가 일방향이 아니라
-                  서로 얽혀 있습니다.
-                </p>
-              </Card>
-
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  히유키와 시라토리의 역할
-                </h3>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  블랙홀 파트에서 좌표가 생성되었다고 해서 모든 문제가 해결되는
-                  것은 아닙니다. 좌표가 있다고 해서 누구나 그곳에 갈 수 있는
-                  것은 아닙니다. 왜냐하면 게이트 너머의 공간은 여전히 왜곡되어
-                  있고, 이동 경로는 안정적이지 않기 때문입니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  여기서 히유키의 역할이 중요해집니다. 히유키는 단순히 방랑자를
-                  돕는 조력자에 머물지 않습니다. 그녀의 시라토리는 왜곡된 공간에서
-                  방향성과 경로를 보정하는 역할을 합니다. 즉, 집단의 기록이
-                  좌표를 만들었다면, 히유키는 그 좌표를 실제로 사용할 수 있게
-                  만드는 존재입니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed">
-                  히유키와의 대화를 통해 방랑자는 자신이 혼자 모든 것을 해결하는
-                  '구세주'가 아니라, 세계와 함께 움직이는 영웅임을 재확인합니다.
-                  그는 다른 사람들이 만든 길을 믿고, 그 길을 끝까지 가는 영웅입니다.
-                </p>
-              </Card>
-
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  엑소스트라이더와 리액터 드라이브 레플리카
-                </h3>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  알레프 원과의 결전에서 가장 중요한 물리적 조건은 엑소스트라이더의
-                  복구입니다. 방랑자가 엑소스트라이더를 되찾는 것만으로는 부족합니다.
-                  엑소스트라이더는 알레프 원과 맞서기 위해 충분한 힘을 필요로
-                  했고, 이를 가능하게 한 것이 리액터 드라이브 레플리카입니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  리액터 드라이브 레플리카는 단순한 강화 장치가 아닙니다. 이것은
-                  라하이 로이 사람들이 만들어낸 새로운 심장에 가깝습니다.
-                  엑소스트라이더는 과거부터 인류를 지키기 위해 존재해온 기체였지만,
-                  이번 결전에서 그것이 다시 싸울 수 있었던 이유는 인간들이
-                  만들어낸 새로운 심장이 있었기 때문입니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed">
-                  즉, 엑소스트라이더조차 혼자 완성된 존재가 아닙니다. 과거의
-                  엑소스트라이더는 인류를 지켰지만, 이번에는 인류가 엑소스트라이더에게
-                  새로운 심장을 줍니다. 이 관계 역시 이번 스토리의 핵심 주제와
-                  연결됩니다. 영웅이 세계를 구하는 것이 아니라, 세계가 영웅을
-                  구합니다. 방랑자뿐 아니라 엑소스트라이더 역시 세계에게 구원받습니다.
-                </p>
-              </Card>
-            </div>
-          </div>
+      <section className="relative py-24 px-4 overflow-hidden">
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
-      </section>
+        <div className="relative z-10 bg-gradient-to-b from-background via-background/95 to-background py-24">
+          <div className="max-w-6xl mx-auto">
+            <div
+              id="characters"
+              data-reveal
+              className={`transition-all duration-1000 ${
+                visibleElements["characters"]
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-8"
+              }`}
+            >
+              <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
+                주요 인물 및 요소의 역할
+              </h2>
 
-      {/* Final Battle Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-background to-background">
-        <div className="max-w-6xl mx-auto">
-          <div
-            id="battle"
-            data-reveal
-            className={`transition-all duration-1000 ${
-              visibleElements["battle"]
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
-            }`}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
-              알레프 원과의 결전
-            </h2>
+              <div className="space-y-8">
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    보이드에 삼켜진 사람들의 기록
+                  </h3>
+                  <p className="text-slate-300 leading-relaxed">
+                    스토리에서 보이드에 삼켜진 사람들은 단순히 희생자로 남지
+                    않습니다. 그들의 이동 기록은 엑소스트라이더의 빛을 향해 쌓여
+                    '좌표'를 형성합니다. 이 좌표는 방랑자가 엑소스트라이더를 찾고
+                    결전에 나설 수 있는 물리적 기반이 됩니다. 이는 실패와 희생이
+                    무의미하게 사라지는 것이 아니라, 새로운 가능성을 만드는
+                    데이터이자 구조가 됨을 보여줍니다.
+                  </p>
+                </Card>
 
-            <div className="space-y-8">
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  결전의 의미
-                </h3>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  블랙홀 파트가 '길을 만드는 이야기'라면, 알레프 원과의 결전은
-                  그 길 끝에서 이루어지는 최종 증명입니다. 방랑자와 에이메스는
-                  게이트 너머에서 재회하고, 에이메스는 리액터 드라이브 레플리카를
-                  엑소스트라이더에 전달합니다. 이로써 엑소스트라이더는 다시 싸울
-                  수 있는 상태가 됩니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed">
-                  그러나 알레프 원은 단순히 강한 적이 아닙니다. 알레프 원은 허무,
-                  슬픔, 부정적인 에너지와 연결된 거대한 존재이며, 완전히 소멸시키기
-                  어려운 위협으로 그려집니다. 그렇기 때문에 이 결전은 단순히 '적을
-                  죽인다'는 형태의 승리가 아닙니다.
-                </p>
-              </Card>
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    에이메스의 역할
+                  </h3>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    에이메스는 단순한 구출 대상이 아닙니다. 겉으로는 방랑자가
+                    에이메스를 구하러 가는 이야기처럼 보이지만, 실제로는 에이메스
+                    역시 방랑자를 구하는 역할을 합니다.
+                  </p>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    에이메스는 보이드 너머의 기록을 받아내고, 그것을 전달 가능한
+                    형태로 변환합니다. 그녀는 수천만 명의 기록을 카세트 테이프라는
+                    형태로 현실에 연결합니다. 또한 결전에서는 리액터 드라이브
+                    레플리카를 통해 엑소스트라이더를 복구하는 데 중요한 역할을
+                    합니다.
+                  </p>
+                  <p className="text-slate-300 leading-relaxed">
+                    즉, 에이메스는 단순히 '구원받는 인물'이 아닙니다. 그녀는
+                    세계의 기록을 방랑자에게 전달하는 매개자이며, 결전을 가능하게
+                    만든 또 하나의 주체입니다. 방랑자는 에이메스를 구하려고 했지만,
+                    결국 방랑자가 알레프 원과 싸울 수 있었던 것도 에이메스
+                    덕분입니다. 구하는 자와 구원받는 자의 관계가 일방향이 아니라
+                    서로 얽혀 있습니다.
+                  </p>
+                </Card>
 
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  불완전한 승리의 의미
-                </h3>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  알레프 원과의 싸움은 압도적인 힘으로 상대를 완전히 제거하는
-                  전투가 아니라, 세계를 집어삼키려는 존재를 밀어내고 추방하는
-                  싸움입니다. 이 차이가 중요합니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  만약 방랑자가 알레프 원을 완전히 소멸시켰다면, 이야기는
-                  전형적인 영웅 승리 서사가 되었을 것입니다. 그러나 스토리는
-                  그렇게 가지 않습니다. 방랑자와 엑소스트라이더는 알레프 원을
-                  완전히 없애지 못합니다. 대신 라하이 로이에서 멀리 밀어내고,
-                  당장의 위협을 제거합니다.
-                </p>
-                <p className="text-slate-300 leading-relaxed">
-                  이것은 승리이지만 완전한 종결은 아닙니다. 명식의 위협은 여전히
-                  세계관 속에 남아 있고, 알레프 원 역시 완전히 사라진 것이 아닙니다.
-                  그럼에도 이 승리가 의미 있는 이유는, 이 전투가 한 명의 힘으로
-                  만들어진 승리가 아니기 때문입니다.
-                </p>
-              </Card>
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    히유키와 시라토리의 역할
+                  </h3>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    블랙홀 파트에서 좌표가 생성되었다고 해서 모든 문제가 해결되는
+                    것은 아닙니다. 좌표가 있다고 해서 누구나 그곳에 갈 수 있는
+                    것은 아닙니다. 왜냐하면 게이트 너머의 공간은 여전히 왜곡되어
+                    있고, 이동 경로는 안정적이지 않기 때문입니다.
+                  </p>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    여기서 히유키의 역할이 중요해집니다. 히유키는 단순히 방랑자를
+                    돕는 조력자에 머물지 않습니다. 그녀의 시라토리는 왜곡된 공간에서
+                    방향성과 경로를 보정하는 역할을 합니다. 즉, 집단의 기록이
+                    좌표를 만들었다면, 히유키는 그 좌표를 실제로 사용할 수 있게
+                    만드는 존재입니다.
+                  </p>
+                  <p className="text-slate-300 leading-relaxed">
+                    히유키와의 대화를 통해 방랑자는 자신이 혼자 모든 것을 해결하는
+                    '구세주'가 아니라, 세계와 함께 움직이는 영웅임을 재확인합니다.
+                  </p>
+                </Card>
 
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  집단적 승리
-                </h3>
-                <p className="text-slate-300 leading-relaxed">
-                  이 결전은 보이드에 삼켜진 사람들의 기록, 에이메스의 전달,
-                  히유키의 지원, 콜렉티브의 기술, 라하이 로이 사람들의 의지가 모두
-                  결합된 결과입니다. 즉, 알레프 원과의 결전은 방랑자 개인의 승리가
-                  아니라, 라하이 로이 전체가 만들어낸 승리입니다.
-                </p>
-              </Card>
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    엑소스트라이더와 리액터 드라이브 레플리카
+                  </h3>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    엑소스트라이더는 이미 죽었습니다. 하지만 세계는 그를 다시
+                    일으킵니다. 리액터 드라이브 레플리카는 단순한 기술적 장비가
+                    아니라, 인류가 엑소스트라이더에게 바친 새로운 심장입니다.
+                  </p>
+                  <p className="text-slate-300 leading-relaxed">
+                    이것은 스토리의 핵심을 상징합니다. 엑소스트라이더는 혼자가
+                    아닙니다. 그는 세계의 의지를 담아 다시 일어나고, 방랑자와
+                    함께 알레프 원과 맞섭니다. 결전은 엑소스트라이더 개인의 전투가
+                    아니라, 세계 전체가 만들어낸 승리입니다.
+                  </p>
+                </Card>
 
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  결전까지의 흐름
-                </h3>
-                <ol className="space-y-3 text-slate-300 leading-relaxed">
-                  <li className="flex gap-3">
-                    <span className="text-accent font-bold min-w-fit">1단계:</span>
-                    <span>
-                      보이드에 삼켜진 사람들이 엑소스트라이더의 빛을 향해 이동했다.
-                    </span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent font-bold min-w-fit">2단계:</span>
-                    <span>그 이동 기록이 쌓여 좌표가 되었다.</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent font-bold min-w-fit">3단계:</span>
-                    <span>에이메스가 그 좌표를 카세트 테이프로 전달했다.</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent font-bold min-w-fit">4단계:</span>
-                    <span>
-                      방랑자가 좌표를 해석하고 다시 게이트 너머로 향했다.
-                    </span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent font-bold min-w-fit">5단계:</span>
-                    <span>히유키의 시라토리가 경로를 안정화했다.</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent font-bold min-w-fit">6단계:</span>
-                    <span>리액터 드라이브 레플리카가 엑소스트라이더를 복구했다.</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent font-bold min-w-fit">7단계:</span>
-                    <span>방랑자와 에이메스가 함께 알레프 원과 맞섰다.</span>
-                  </li>
-                </ol>
-              </Card>
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    결전까지의 흐름
+                  </h3>
+                  <ol className="space-y-3 text-slate-300 leading-relaxed">
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold min-w-fit">1단계:</span>
+                      <span>
+                        보이드에 삼켜진 사람들이 엑소스트라이더의 빛을 향해 이동했다.
+                      </span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold min-w-fit">2단계:</span>
+                      <span>그 이동 기록이 쌓여 좌표가 되었다.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold min-w-fit">3단계:</span>
+                      <span>에이메스가 그 좌표를 카세트 테이프로 전달했다.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold min-w-fit">4단계:</span>
+                      <span>
+                        방랑자가 좌표를 해석하고 다시 게이트 너머로 향했다.
+                      </span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold min-w-fit">5단계:</span>
+                      <span>히유키의 시라토리가 경로를 안정화했다.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold min-w-fit">6단계:</span>
+                      <span>리액터 드라이브 레플리카가 엑소스트라이더를 복구했다.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent font-bold min-w-fit">7단계:</span>
+                      <span>방랑자와 에이메스가 함께 알레프 원과 맞섰다.</span>
+                    </li>
+                  </ol>
+                </Card>
 
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
-                  구조적 필연성
-                </h3>
-                <p className="text-slate-300 leading-relaxed mb-4">
-                  이 과정에서 어느 하나라도 빠졌다면 결전은 성립하지 않습니다.
-                  각 요소가 얼마나 필수적인지 살펴봅시다:
-                </p>
-                <ul className="space-y-2 text-slate-300">
-                  <li className="flex gap-3">
-                    <span className="text-accent">•</span>
-                    <span>
-                      좌표가 없었다면 방랑자는 엑소스트라이더를 찾을 수 없었다.
-                    </span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent">•</span>
-                    <span>에이메스가 없었다면 기록은 전달되지 못했다.</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent">•</span>
-                    <span>히유키가 없었다면 경로는 안정되지 못했다.</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent">•</span>
-                    <span>레플리카가 없었다면 엑소스트라이더는 싸울 수 없었다.</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-accent">•</span>
-                    <span>방랑자가 없었다면 마지막 결전을 수행할 존재가 없었다.</span>
-                  </li>
-                </ul>
-                <p className="text-slate-300 leading-relaxed mt-4">
-                  따라서 결전은 단순한 마지막 전투가 아니라, 세계 전체가 축적해온
-                  선택들이 하나의 순간으로 모이는 장면입니다.
-                </p>
-              </Card>
+                <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                  <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                    구조적 필연성
+                  </h3>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    이 과정에서 어느 하나라도 빠졌다면 결전은 성립하지 않습니다.
+                    각 요소가 얼마나 필수적인지 살펴봅시다:
+                  </p>
+                  <ul className="space-y-2 text-slate-300">
+                    <li className="flex gap-3">
+                      <span className="text-accent">•</span>
+                      <span>
+                        좌표가 없었다면 방랑자는 엑소스트라이더를 찾을 수 없었다.
+                      </span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent">•</span>
+                      <span>에이메스가 없었다면 기록은 전달되지 못했다.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent">•</span>
+                      <span>히유키가 없었다면 경로는 안정되지 못했다.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent">•</span>
+                      <span>레플리카가 없었다면 엑소스트라이더는 싸울 수 없었다.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-accent">•</span>
+                      <span>방랑자가 없었다면 마지막 결전을 수행할 존재가 없었다.</span>
+                    </li>
+                  </ul>
+                  <p className="text-slate-300 leading-relaxed mt-4">
+                    따라서 결전은 단순한 마지막 전투가 아니라, 세계 전체가 축적해온
+                    선택들이 하나의 순간으로 모이는 장면입니다.
+                  </p>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Story Distinction Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-background to-background">
-        <div className="max-w-6xl mx-auto">
-          <div
-            id="distinction"
-            data-reveal
-            className={`transition-all duration-1000 ${
-              visibleElements["distinction"]
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
-            }`}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
-              스토리의 차별점
-            </h2>
+      <section className="relative py-24 px-4 overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-1/2 left-0 w-96 h-96 bg-accent/15 rounded-full blur-3xl" />
+          <div className="absolute top-0 right-1/3 w-80 h-80 bg-accent/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
+        </div>
+        <div className="relative z-10 bg-gradient-to-b from-background/90 via-background to-background py-24">
+          <div className="max-w-6xl mx-auto">
+            <div
+              id="distinction"
+              data-reveal
+              className={`transition-all duration-1000 ${
+                visibleElements["distinction"]
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-8"
+              }`}
+            >
+              <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
+                스토리의 차별점
+              </h2>
 
-            <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
-                감정, 설정, 구조의 유기적 결합
-              </h3>
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 mb-8">
+                <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
+                  감정, 설정, 구조의 유기적 결합
+                </h3>
 
-              <p className="text-slate-300 leading-relaxed mb-6">
-                이번 3.3 스토리가 강하게 느껴지는 이유는 단순히 연출이 좋기
-                때문만은 아닙니다. 가장 큰 차별점은 감정, 설정, 구조가 서로
-                분리되어 있지 않다는 점입니다.
-              </p>
+                <p className="text-slate-300 leading-relaxed mb-6">
+                  이번 3.3 스토리가 강하게 느껴지는 이유는 단순히 연출이 좋기
+                  때문만은 아닙니다. 가장 큰 차별점은 감정, 설정, 구조가 서로
+                  분리되어 있지 않다는 점입니다.
+                </p>
 
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
-                <div className="border-l-2 border-accent pl-6">
-                  <h4 className="text-lg font-bold text-accent mb-3">
-                    희생의 의미
-                  </h4>
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    보통 감동적인 장면은 감정 연출로만 소비되는 경우가 많습니다.
-                    누군가 희생하고, 주인공이 분노하거나 각성하며, 적을 쓰러뜨리는
-                    방식입니다. 하지만 3.3은 희생을 단순한 감정 장치로 쓰지
-                    않습니다. 희생은 데이터가 되고, 데이터는 좌표가 되며, 좌표는
-                    길이 되어 결전을 가능하게 합니다.
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  <div className="border-l-2 border-accent pl-6">
+                    <h4 className="text-lg font-bold text-accent mb-3">
+                      희생의 의미
+                    </h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      보통 감동적인 장면은 감정 연출로만 소비되는 경우가 많습니다.
+                      누군가 희생하고, 주인공이 분노하거나 각성하며, 적을 쓰러뜨리는
+                      방식입니다. 하지만 3.3은 희생을 단순한 감정 장치로 쓰지
+                      않습니다. 희생은 데이터가 되고, 데이터는 좌표가 되며, 좌표는
+                      길이 되어 결전을 가능하게 합니다.
+                    </p>
+                  </div>
+
+                  <div className="border-l-2 border-accent pl-6">
+                    <h4 className="text-lg font-bold text-accent mb-3">
+                      카세트 테이프의 역할
+                    </h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      카세트 테이프는 추억의 상징이면서 동시에 좌표 데이터의 저장
+                      장치입니다. 수많은 사람들이 걸어간 길은 감동적인 장면이면서
+                      동시에 실제로 엑소스트라이더를 찾게 만드는 논리적 장치입니다.
+                    </p>
+                  </div>
+
+                  <div className="border-l-2 border-accent pl-6">
+                    <h4 className="text-lg font-bold text-accent mb-3">
+                      리액터 드라이브 레플리카
+                    </h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      리액터 드라이브 레플리카는 기술적 장비이면서 동시에 인류가
+                      엑소스트라이더에게 바친 새로운 심장입니다. 하나의 물체가
+                      감정, 설정, 주제를 동시에 담당합니다.
+                    </p>
+                  </div>
+
+                  <div className="border-l-2 border-accent pl-6">
+                    <h4 className="text-lg font-bold text-accent mb-3">
+                      구조적 완성도
+                    </h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      이런 식으로 하나의 장면이 감정, 설정, 주제를 동시에 담당하기
+                      때문에 3.3 스토리는 완성도가 높게 느껴집니다. 스토리 구조
+                      자체가 메시지를 전달하는 형태가 됩니다.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
+                  최종 결론
+                </h3>
+                <p className="text-slate-300 leading-relaxed text-lg mb-6">
+                  명조 3.3 스토리는 단순한 세계 구원 서사가 아닙니다. 이 이야기는
+                  영웅 한 명이 모든 것을 해결하는 구조를 거부합니다. 방랑자는 마지막
+                  전투를 수행하는 중요한 존재이지만, 그가 결전에 도달할 수 있었던
+                  이유는 세계가 먼저 그를 위해 길을 만들어주었기 때문입니다.
+                </p>
+
+                <div className="space-y-3 text-slate-300 mb-6">
+                  <p className="flex gap-3">
+                    <span className="text-accent">•</span>
+                    <span>
+                      보이드에 삼켜진 사람들은 사라졌지만, 그들의 기록은 좌표가
+                      되었다.
+                    </span>
+                  </p>
+                  <p className="flex gap-3">
+                    <span className="text-accent">•</span>
+                    <span>에이메스는 그 기록을 카세트 테이프에 담아 전달했다.</span>
+                  </p>
+                  <p className="flex gap-3">
+                    <span className="text-accent">•</span>
+                    <span>
+                      히유키는 방랑자가 그 좌표를 따라갈 수 있도록 경로를 열어주었다.
+                    </span>
+                  </p>
+                  <p className="flex gap-3">
+                    <span className="text-accent">•</span>
+                    <span>
+                      콜렉티브와 라하이 로이 사람들은 리액터 드라이브 레플리카를
+                      완성했다.
+                    </span>
+                  </p>
+                  <p className="flex gap-3">
+                    <span className="text-accent">•</span>
+                    <span>엑소스트라이더는 인류가 건넨 새로운 심장으로 다시 일어났다.</span>
+                  </p>
+                  <p className="flex gap-3">
+                    <span className="text-accent">•</span>
+                    <span>
+                      그리고 방랑자는 그 모든 것의 끝에서 알레프 원과 맞섰다.
+                    </span>
                   </p>
                 </div>
 
-                <div className="border-l-2 border-accent pl-6">
-                  <h4 className="text-lg font-bold text-accent mb-3">
-                    카세트 테이프의 역할
-                  </h4>
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    카세트 테이프는 추억의 상징이면서 동시에 좌표 데이터의 저장
-                    장치입니다. 수많은 사람들이 걸어간 길은 감동적인 장면이면서
-                    동시에 실제로 엑소스트라이더를 찾게 만드는 논리적 장치입니다.
-                  </p>
-                </div>
-
-                <div className="border-l-2 border-accent pl-6">
-                  <h4 className="text-lg font-bold text-accent mb-3">
-                    리액터 드라이브 레플리카
-                  </h4>
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    리액터 드라이브 레플리카는 기술적 장비이면서 동시에 인류가
-                    엑소스트라이더에게 바친 새로운 심장입니다. 하나의 물체가
-                    감정, 설정, 주제를 동시에 담당합니다.
-                  </p>
-                </div>
-
-                <div className="border-l-2 border-accent pl-6">
-                  <h4 className="text-lg font-bold text-accent mb-3">
-                    구조적 완성도
-                  </h4>
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    이런 식으로 하나의 장면이 감정, 설정, 주제를 동시에 담당하기
-                    때문에 3.3 스토리는 완성도가 높게 느껴집니다. 스토리 구조
-                    자체가 메시지를 전달하는 형태가 됩니다.
-                  </p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
-              <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
-                최종 결론
-              </h3>
-              <p className="text-slate-300 leading-relaxed text-lg mb-6">
-                명조 3.3 스토리는 단순한 세계 구원 서사가 아닙니다. 이 이야기는
-                영웅 한 명이 모든 것을 해결하는 구조를 거부합니다. 방랑자는 마지막
-                전투를 수행하는 중요한 존재이지만, 그가 결전에 도달할 수 있었던
-                이유는 세계가 먼저 그를 위해 길을 만들었기 때문입니다.
-              </p>
-
-              <div className="space-y-3 text-slate-300 mb-6">
-                <p className="flex gap-3">
-                  <span className="text-accent">•</span>
-                  <span>
-                    보이드에 삼켜진 사람들은 사라졌지만, 그들의 기록은 좌표가
-                    되었다.
-                  </span>
+                <p className="text-slate-300 leading-relaxed text-lg italic border-l-2 border-accent pl-6">
+                  "세계가 길을 만들었고, 영웅은 그 길의 끝에서 싸웠다. 그리고 더
+                  정확히 말하면, 영웅이 세계를 구한 것이 아니라, 세계가 영웅을
+                  구할 수 있게 만들었다."
                 </p>
-                <p className="flex gap-3">
-                  <span className="text-accent">•</span>
-                  <span>에이메스는 그 기록을 카세트 테이프에 담아 전달했다.</span>
-                </p>
-                <p className="flex gap-3">
-                  <span className="text-accent">•</span>
-                  <span>
-                    히유키는 방랑자가 그 좌표를 따라갈 수 있도록 경로를 열어주었다.
-                  </span>
-                </p>
-                <p className="flex gap-3">
-                  <span className="text-accent">•</span>
-                  <span>
-                    콜렉티브와 라하이 로이 사람들은 리액터 드라이브 레플리카를
-                    완성했다.
-                  </span>
-                </p>
-                <p className="flex gap-3">
-                  <span className="text-accent">•</span>
-                  <span>엑소스트라이더는 인류가 건넨 새로운 심장으로 다시 일어났다.</span>
-                </p>
-                <p className="flex gap-3">
-                  <span className="text-accent">•</span>
-                  <span>
-                    그리고 방랑자는 그 모든 것의 끝에서 알레프 원과 맞섰다.
-                  </span>
-                </p>
-              </div>
-
-              <p className="text-slate-300 leading-relaxed text-lg italic border-l-2 border-accent pl-6">
-                "세계가 길을 만들었고, 영웅은 그 길의 끝에서 싸웠다. 그리고 더
-                정확히 말하면, 영웅이 세계를 구한 것이 아니라, 세계가 영웅을
-                구할 수 있게 만들었다."
-              </p>
-            </Card>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
