@@ -218,7 +218,7 @@ export default function Home() {
                     </p>
                   </div>
                   <img
-                    src="../image/1.webp"
+                    src="./image/1.webp"
                     alt="1단계: 중심점과 개인"
                     className="rounded-lg shadow-lg border border-accent/20 w-full"
                   />
