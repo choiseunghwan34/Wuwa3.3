@@ -287,6 +287,100 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Detailed Analysis Section */}
+      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/50 to-background">
+        <div className="max-w-6xl mx-auto">
+          <div
+            id="detailed-analysis"
+            data-reveal
+            className={`transition-all duration-1000 ${
+              visibleElements["detailed-analysis"]
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-8"
+            }`}
+          >
+            <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent">
+              블랙홀 파트 상세 분석
+            </h2>
+
+            <div className="space-y-12">
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
+                <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
+                  좌표 형성의 기하학적 원리
+                </h3>
+                <p className="text-slate-300 leading-relaxed mb-6">
+                  블랙홀 파트에서 가장 중요한 개념은 "좌표"의 형성입니다. 이것은 단순한 위치 정보가 아니라,
+                  수천만 명의 개인적 경험과 의지가 응축된 "길"입니다. 다음은 이 과정의 단계별 분석입니다:
+                </p>
+                <img 
+                  src="/manus-storage/analysis_detailed_cd47756e.webp" 
+                  alt="블랙홀 파트 상세 분석" 
+                  className="rounded-lg w-full max-w-4xl mx-auto hover:scale-105 transition-transform duration-300 shadow-lg border border-accent/20 mb-6"
+                />
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+                <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
+                  단계별 좌표 형성 프로세스
+                </h3>
+                <div className="space-y-6">
+                  <div className="border-l-4 border-accent pl-6 py-2">
+                    <h4 className="text-lg font-bold text-accent mb-2">1단계: 중심점의 설정</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      블랙홀 내에서 엑소스트라이더의 빛(★)이 절대적인 중심이 됩니다. 이것은 모든 개인이 향해야 할
+                      방향을 제시합니다. 각 개인은 이 중심을 기준으로 자신의 위치와 이동 거리를 기록합니다.
+                    </p>
+                  </div>
+
+                  <div className="border-l-4 border-accent pl-6 py-2">
+                    <h4 className="text-lg font-bold text-accent mb-2">2단계: 개인 경로의 데이터화</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      각 개인이 중심을 향해 걸어간 경로는 "주파수"라는 형태로 기록됩니다. 성공한 경로뿐 아니라
+                      실패한 경로도 모두 데이터가 되며, 이는 완전한 좌표계를 만드는 데 필수적입니다.
+                      "모든 노력이 의미를 가진다"는 메시지가 여기에 담겨 있습니다.
+                    </p>
+                  </div>
+
+                  <div className="border-l-4 border-accent pl-6 py-2">
+                    <h4 className="text-lg font-bold text-accent mb-2">3단계: 집단 데이터의 축적</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      한 명의 기록은 미미하지만, 수백만, 수천만 명의 기록이 모이면 놀라운 일이 일어납니다.
+                      모든 사람이 같은 중심을 향해 나아갔기 때문에, 각각의 경로들이 모여 3차원 구(Sphere) 형태를
+                      이룹니다. 희소한 점들이 촘촘한 구로 변환되는 과정입니다.
+                    </p>
+                  </div>
+
+                  <div className="border-l-4 border-accent pl-6 py-2">
+                    <h4 className="text-lg font-bold text-accent mb-2">4단계: 좌표의 완성과 활용</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      완성된 3차원 구 형태의 좌표는 보이저호의 메시지처럼, 수천만 명의 의지와 희망이 응축된
+                      "우주의 메시지"가 됩니다. 이것은 단순한 데이터가 아니라, 모든 사람의 기록을 담은 길이 되어
+                      엑소스트라이더를 결전의 자리까지 인도합니다.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-gradient-to-r from-accent/15 to-accent/5 backdrop-blur border-accent/40 p-8 hover:border-accent/60 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+                <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
+                  핵심 메시지
+                </h3>
+                <div className="space-y-3">
+                  <p className="text-slate-200 leading-relaxed italic">
+                    "블랙홀 파트는 단순한 절망의 장면이 아닙니다. 그것은 희생이 어떻게 의미 있는 데이터로 변환되고,
+                    그 데이터들이 모여 길이 되며, 그 길 위에서 영웅이 세계를 구할 수 있게 만드는 과정을 보여줍니다."
+                  </p>
+                  <p className="text-slate-300 text-sm">
+                    이것이 명조 3.3이 다른 스토리와 다른 이유입니다. 감정과 논리가 완벽하게 결합되어,
+                    하나의 장면이 감정, 설정, 주제를 동시에 담당합니다.
+                  </p>
+                </div>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Key Characters Section */}
       <section className="relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/20 to-background">
         <div className="max-w-6xl mx-auto">
