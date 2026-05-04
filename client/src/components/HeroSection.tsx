@@ -7,9 +7,18 @@ interface HeroSectionProps {
 
 export default function HeroSection({ onExplore }: HeroSectionProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Animated background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 via-purple-900/10 to-transparent animate-pulse-slow" />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-center" style={{
+      backgroundImage: 'url(/manus-storage/hero-background.png)',
+      backgroundAttachment: 'fixed',
+    }}>
+      {/* Overlay gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-950/60 to-slate-950" />
+      
+      {/* Animated background circles */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse-slow" />
+      </div>
       
       {/* Content */}
       <div className="relative z-10 text-center space-y-8 px-4">

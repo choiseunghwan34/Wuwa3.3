@@ -2,8 +2,13 @@ import { Card } from "@/components/ui/card";
 
 export default function AlephOneSection() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-slate-900 to-slate-950">
-      <div className="max-w-5xl mx-auto space-y-12">
+    <section className="relative py-20 px-4 bg-gradient-to-b from-slate-900 to-slate-950 overflow-hidden">
+      {/* Animated background */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-red-500/5 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-pink-500/5 rounded-full blur-3xl animate-pulse-slow" />
+      </div>
+      <div className="relative z-10 max-w-5xl mx-auto space-y-12">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-4xl font-bold font-playfair text-blue-300">
             알레프 원: 우주의 눈

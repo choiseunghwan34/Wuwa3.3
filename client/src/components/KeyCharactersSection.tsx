@@ -36,8 +36,13 @@ export default function KeyCharactersSection() {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-slate-950 to-slate-900">
-      <div className="max-w-5xl mx-auto space-y-12">
+    <section className="relative py-20 px-4 bg-gradient-to-b from-slate-950 to-slate-900 overflow-hidden">
+      {/* Animated background */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-green-500/5 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-1/3 right-1/3 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl animate-pulse-slow" />
+      </div>
+      <div className="relative z-10 max-w-5xl mx-auto space-y-12">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-4xl font-bold font-playfair text-blue-300">
             주요 인물
