@@ -63,8 +63,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage:
-              "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/hero-background-Hr4xtozqwKWE2F5quBHpDj.webp')",
+            backgroundImage: "url('/image/0.jpg')",
             backgroundAttachment: "fixed",
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
