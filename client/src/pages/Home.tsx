@@ -268,7 +268,7 @@ export default function Home() {
                     <p className="text-slate-300 text-sm leading-relaxed mb-4">
                       블랙홀 내에서 엑소스트라이더의 빛은 절대적인 중심(★)이 됩니다. 각 개인은 이 중심을 향해 나아가며, 자신이 걸어간 거리와 각도를 기록합니다. 이것이 좌표의 기초가 됩니다.
                     </p>
-                    <img src="/manus-storage/blackhole_diagram_1_center_ebaab1aa.webp" alt="중심점과 개인" className="rounded-lg mb-4 w-full max-w-md" />
+                    <img src="/manus-storage/diagram_center_point_360be00e.webp" alt="중심점과 개인" className="rounded-lg mb-4 w-full max-w-md" />
                     <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
                       <p className="text-slate-400 text-xs italic">
                         "중심을 향해 나아가는 각 개인의 경로 = 거리 + 각도 + 주파수"
@@ -281,7 +281,7 @@ export default function Home() {
                     <p className="text-slate-300 text-sm leading-relaxed mb-4">
                       도중에 실패하거나 사라지더라도, 그들이 걸어간 경로는 사라지지 않습니다. 각자의 이동 궤적이 데이터로 기록되며, 이는 "주파수"라는 형태로 저장됩니다. 실패한 시도도 완전한 좌표계를 만드는 데 필수적인 정보가 됩니다.
                     </p>
-                    <img src="/manus-storage/blackhole_diagram_2_path_34d3e7e3.webp" alt="경로의 데이터화" className="rounded-lg mb-4 w-full max-w-md" />
+                    <img src="/manus-storage/diagram_path_data_6f544b40.webp" alt="경로의 데이터화" className="rounded-lg mb-4 w-full max-w-md" />
                     <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
                       <p className="text-slate-400 text-xs italic">
                         "실패한 경로도 좌표의 일부 = 모든 노력이 의미를 가짐"
@@ -293,7 +293,7 @@ export default function Home() {
                     <h4 className="text-lg font-bold text-accent mb-4">3단계: 집단 데이터의 축적 - 구 형태의 형성</h4>
                     <p className="text-slate-300 text-sm leading-relaxed mb-4">
                       한 명의 기록은 미미하지만, 수백만, 수천만 명의 기록이 모이면 놀라운 일이 일어납니다. 모든 사람이 같은 중심(엑소스트라이더의 빛)을 향해 나아갔기 때문에, 각각의 경로들이 모여 3차원 구(Sphere) 형태를 이룹니다.
-                    </p>                    <img src="/manus-storage/blackhole_diagram_3_sparse_dense_a3c03dcc.webp" alt="구 형태의 형성" className="rounded-lg mb-4 w-full max-w-2xl" />
+                    </p>                    <img src="/manus-storage/diagram_sphere_formation_a3bdb03d.webp" alt="구 형태의 형성" className="rounded-lg mb-4 w-full max-w-2xl" />
                     <ul className="space-y-2 text-slate-300 text-sm">
                       <li className="flex gap-2">
                         <span className="text-accent">•</span>
@@ -315,7 +315,7 @@ export default function Home() {
                     <p className="text-slate-300 text-sm leading-relaxed mb-4">
                       이렇게 완성된 3차원 구 형태의 좌표는 단순한 데이터가 아닙니다. 이것은 수천만 명의 의지, 희망, 그리고 마지막 순간의 선택이 응축된 "지도"입니다. 마치 보이저호가 우주에 인류의 메시지를 담아 보낸 것처럼, 이 좌표는 모든 사람의 기록을 담은 우주의 메시지가 됩니다.
                     </p>
-                    <img src="/manus-storage/blackhole_voyager_coordinate_d6a5ebb9.webp" alt="보이저호 같은 좌표" className="rounded-lg mb-4 w-full max-w-2xl" />
+                    <img src="/manus-storage/voyager_coordinate_system_cec9301b.webp" alt="보이저호 같은 좌표" className="rounded-lg mb-4 w-full max-w-2xl" />
                     <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
                       <p className="text-slate-400 text-xs italic">
                         "구 형태의 좌표 = 수천만 명이 함께 만든 길 = 우주에 보낸 인류의 메시지"
