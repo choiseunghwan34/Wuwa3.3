@@ -218,7 +218,7 @@ export default function Home() {
                     </p>
                   </div>
                   <img
-                    src="./image/1.webp"
+                    src="/image/1.webp"
                     alt="1단계: 중심점과 개인"
                     className="rounded-lg shadow-lg border border-accent/20 w-full"
                   />
@@ -235,7 +235,7 @@ export default function Home() {
                 </h3>
                 <div className="grid md:grid-cols-2 gap-8 items-start">
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/stage2_path_data-a1b2c3d4.webp"
+                    src="/image/2.webp"
                     alt="2단계: 경로의 데이터화"
                     className="rounded-lg shadow-lg border border-accent/20 w-full"
                   />
@@ -271,7 +271,7 @@ export default function Home() {
                     </p>
                   </div>
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/stage3_sphere_formation-e5f6g7h8.webp"
+                    src="/image/3.webp"
                     alt="3단계: 구 형태의 형성"
                     className="rounded-lg shadow-lg border border-accent/20 w-full max-w-2xl mx-auto"
                   />
@@ -323,7 +323,7 @@ export default function Home() {
                     </p>
                   </div>
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/stage4_voyager_coordinate-i9j0k1l2.webp"
+                    src="/image/4.webp"
                     alt="4단계: 보이저호 같은 좌표"
                     className="rounded-lg shadow-lg border border-accent/20 w-full"
                   />
@@ -415,7 +415,7 @@ export default function Home() {
                 </p>
               </div>
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663610674087/S95DyMAVW3t8ozUjmMqgqM/aleph_one_eye-m1n2o3p4.webp"
+                src="/image/5.webp"
                 alt="알레프 원 - 우주의 눈"
                 className="rounded-lg shadow-lg border border-accent/20 w-full"
               />
