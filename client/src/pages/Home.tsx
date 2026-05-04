@@ -306,17 +306,36 @@ export default function Home() {
             <div className="space-y-12">
               <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
                 <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
-                  좌표 형성의 기하학적 원리
+                  블랙홀 안에서 좌표를 찾을 수 있던 방법
                 </h3>
-                <p className="text-slate-300 leading-relaxed mb-6">
-                  블랙홀 파트에서 가장 중요한 개념은 "좌표"의 형성입니다. 이것은 단순한 위치 정보가 아니라,
-                  수천만 명의 개인적 경험과 의지가 응축된 "길"입니다. 다음은 이 과정의 단계별 분석입니다:
-                </p>
-                <img 
-                  src="/manus-storage/analysis_detailed_cd47756e.webp" 
-                  alt="블랙홀 파트 상세 분석" 
-                  className="rounded-lg w-full max-w-4xl mx-auto hover:scale-105 transition-transform duration-300 shadow-lg border border-accent/20 mb-6"
-                />
+                <div className="space-y-6 text-slate-300 leading-relaxed">
+                  <p>
+                    블랙홀 안에서의 좌표 형성은 다음과 같은 원리로 작동합니다. 블랙홀 내에서 점이 개인을 의미하고, 
+                    빛나는 부분이 엑소스트라이더의 빛이라고 생각하면, 각 개인은 그 빛을 향해 걸어가면서 거리를 재는 방식입니다.
+                  </p>
+                  <p>
+                    물론 언제 닿을 수 있을지, 영원히 도달할 수 없을지도 모르는 거리입니다. 도중에 실패해서 사라지는 사람도 있었고, 
+                    그럼에도 불구하고 자신의 주파수를 사용하며 엑소스트라이더에게 나아갔습니다.
+                  </p>
+                  <p className="font-semibold text-accent">
+                    핵심: 방향(각도) + 거리
+                  </p>
+                  <p>
+                    도착하면 방향(각도)과 거리를 알게 됩니다. 이를 한 명 한 명이 남은 주파수로 기록한 것입니다. 
+                    하지만 이것이 한 명이 아니라 수백, 수천만 명이 한다면?
+                  </p>
+                  <p className="border-l-4 border-accent pl-4 py-2 italic">
+                    "이런 구(Sphere) 형태의 지도가 완성되는 것입니다."
+                  </p>
+                  <p>
+                    사람이 많을수록 이 구가 더욱 촘촘해집니다. 각자가 걸어간 각도와 거리를 입력하면, 
+                    보이저호처럼 위치가 계산 가능해지는 것입니다.
+                  </p>
+                  <p>
+                    특히 이 좌표를 사용하는 방랑자와 히유키의 시라토리(미래를 태우는 술법)까지 합해지니, 
+                    이렇게 찾을 수 있었던 것입니다.
+                  </p>
+                </div>
               </Card>
 
               <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.2s" }}>
