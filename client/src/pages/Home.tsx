@@ -206,6 +206,28 @@ export default function Home() {
             </h2>
 
             <div className="space-y-8">
+              {/* Black Hole BGM Player */}
+              <Card className="bg-gradient-to-r from-accent/10 to-accent/5 backdrop-blur border-accent/30 p-6 hover:border-accent/50 transition-all duration-300">
+                <h3 className="text-lg font-bold mb-4 text-accent font-playfair flex items-center gap-2">
+                  <span>🎵</span> 이 섹션의 배경음악
+                </h3>
+                <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/7nwzaBOmiYc"
+                    title="Black Hole BGM"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                </div>
+                <p className="text-slate-400 text-sm mt-4">
+                  블랙홀 파트에 진입하면서 나오는 우주적 신비로움을 담은 배경음악입니다.
+                </p>
+              </Card>
+
               <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
                   기본 개념: 점과 빛
@@ -648,6 +670,30 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-12 font-playfair text-accent text-center">
               알레프 원: 세계의 위협
             </h2>
+
+            {/* Exostrider Awakening BGM Player */}
+            <div className="mb-12">
+              <Card className="bg-gradient-to-r from-accent/10 to-accent/5 backdrop-blur border-accent/30 p-6 hover:border-accent/50 transition-all duration-300 mb-8">
+                <h3 className="text-lg font-bold mb-4 text-accent font-playfair flex items-center gap-2">
+                  <span>🎵</span> 이 섹션의 배경음악
+                </h3>
+                <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/Gp0Jbhu0FWA"
+                    title="Exostrider Awakening BGM"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                </div>
+                <p className="text-slate-400 text-sm mt-4">
+                  엑소스트라이더가 패배 위기에 있다가 리액터 드라이브 레플리카가 삽입되면서 각성하는 순간의 장대한 배경음악입니다.
+                </p>
+              </Card>
+            </div>
 
             <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
               <div className="relative group">
