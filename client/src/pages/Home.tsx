@@ -75,6 +75,11 @@ export default function Home() {
           <h1
             className="text-6xl md:text-7xl font-bold mb-6 font-playfair animate-fade-in"
             style={{
+              fontSize: "clamp(3rem, 8vw, 6.7rem)",
+              fontWeight: 900,
+              lineHeight: 1.05,
+              marginBottom: "22px",
+              textShadow: "0 6px 20px rgba(0,0,0,.55)",
               background:
                 "linear-gradient(135deg, #a8d8ff 0%, #d8a8ff 50%, #a8d8ff 100%)",
               WebkitBackgroundClip: "text",
