@@ -57,11 +57,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-hidden">
+    <div className="wuwa-page min-h-screen bg-background text-foreground overflow-hidden">
       {/* Hero Section */}
-      <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+      <section className="wuwa-hero relative w-full h-screen flex items-center justify-center overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="wuwa-hero-bg absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: "url('/image/0.jpg')",
             backgroundAttachment: "fixed",
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background" />
         </div>
 
-        <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
+        <div className="wuwa-hero-content relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1
             className="text-6xl md:text-7xl font-bold mb-6 font-playfair animate-fade-in"
             style={{
@@ -109,7 +109,7 @@ export default function Home() {
       </section>
 
       {/* Overview Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/30 to-background">
+      <section className="wuwa-section relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/30 to-background">
         <div className="max-w-6xl mx-auto">
           <div
             id="overview"
@@ -125,7 +125,7 @@ export default function Home() {
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
+              <Card className="wuwa-card bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
                 <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
                   세계가 영웅을 구한다
                 </h3>
@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       {/* Black Hole Section - 4 Stages */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/50 to-background">
+      <section className="wuwa-section relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/50 to-background">
         <div className="max-w-6xl mx-auto">
           <div
             id="detailed-analysis"
@@ -186,7 +186,7 @@ export default function Home() {
 
             <div className="space-y-12">
               {/* Stage 1: Center Point */}
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
+              <Card className="wuwa-card bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
                 <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
                   1단계: 중심점과 개인
                 </h3>
@@ -205,7 +205,7 @@ export default function Home() {
                   <img
                     src="/image/1.webp"
                     alt="1단계: 중심점과 개인"
-                    className="rounded-lg shadow-lg border border-accent/20 w-full"
+                    className="wuwa-image rounded-lg shadow-lg border border-accent/20 w-full"
                   />
                 </div>
               </Card>
@@ -222,7 +222,7 @@ export default function Home() {
                   <img
                     src="/image/2.webp"
                     alt="2단계: 경로의 데이터화"
-                    className="rounded-lg shadow-lg border border-accent/20 w-full"
+                    className="wuwa-image rounded-lg shadow-lg border border-accent/20 w-full"
                   />
                   <div className="space-y-4 text-slate-300 leading-relaxed">
                     <p>
@@ -258,7 +258,7 @@ export default function Home() {
                   <img
                     src="/image/3.webp"
                     alt="3단계: 구 형태의 형성"
-                    className="rounded-lg shadow-lg border border-accent/20 w-full max-w-2xl mx-auto"
+                    className="wuwa-image rounded-lg shadow-lg border border-accent/20 w-full max-w-2xl mx-auto"
                   />
                   <div className="grid md:grid-cols-3 gap-4 text-slate-300 text-sm">
                     <div className="bg-accent/10 p-4 rounded-lg border border-accent/20">
@@ -310,7 +310,7 @@ export default function Home() {
                   <img
                     src="/image/4.webp"
                     alt="4단계: 보이저호 같은 좌표"
-                    className="rounded-lg shadow-lg border border-accent/20 w-full"
+                    className="wuwa-image rounded-lg shadow-lg border border-accent/20 w-full"
                   />
                 </div>
               </Card>
@@ -366,7 +366,7 @@ export default function Home() {
       </section>
 
       {/* Aleph One Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-purple-950/20 to-background">
+      <section className="wuwa-section relative py-24 px-4 bg-gradient-to-b from-background via-purple-950/20 to-background">
         <div className="max-w-6xl mx-auto">
           <div
             id="aleph-one"
@@ -402,7 +402,7 @@ export default function Home() {
               <img
                 src="/image/5.webp"
                 alt="알레프 원 - 우주의 눈"
-                className="rounded-lg shadow-lg border border-accent/20 w-full"
+                className="wuwa-image rounded-lg shadow-lg border border-accent/20 w-full"
               />
             </div>
           </div>
@@ -410,7 +410,7 @@ export default function Home() {
       </section>
 
       {/* Key Characters Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/40 to-background">
+      <section className="wuwa-section relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/40 to-background">
         <div className="max-w-6xl mx-auto">
           <div
             id="characters"
@@ -426,7 +426,7 @@ export default function Home() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
+              <Card className="wuwa-card bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
                 <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
                   방랑자
                 </h3>
@@ -485,7 +485,7 @@ export default function Home() {
       </section>
 
       {/* Story Distinction Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/50 to-background">
+      <section className="wuwa-section relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/50 to-background">
         <div className="max-w-6xl mx-auto">
           <div
             id="distinction"
@@ -501,7 +501,7 @@ export default function Home() {
             </h2>
 
             <div className="space-y-6">
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
+              <Card className="wuwa-card bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
                 <h3 className="text-2xl font-bold mb-4 text-accent font-playfair">
                   감정과 논리의 완벽한 결합
                 </h3>
@@ -548,7 +548,7 @@ export default function Home() {
       </section>
 
       {/* BGM Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-purple-950/30 to-background">
+      <section className="wuwa-section relative py-24 px-4 bg-gradient-to-b from-background via-purple-950/30 to-background">
         <div className="max-w-6xl mx-auto">
           <div
             id="bgm"
@@ -564,7 +564,7 @@ export default function Home() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <Card className="bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
+              <Card className="wuwa-card bg-card/50 backdrop-blur border-border/50 p-8 hover:border-accent/50 transition-all duration-300 animate-fade-in">
                 <h3 className="text-2xl font-bold mb-6 text-accent font-playfair">
                   블랙홀 파트 BGM
                 </h3>
@@ -616,7 +616,7 @@ export default function Home() {
       </section>
 
       {/* Summary Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/40 to-background">
+      <section className="wuwa-section relative py-24 px-4 bg-gradient-to-b from-background via-slate-950/40 to-background">
         <div className="max-w-6xl mx-auto">
           <div
             id="summary"
@@ -627,7 +627,7 @@ export default function Home() {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <Card className="bg-gradient-to-r from-accent/20 to-accent/10 backdrop-blur border-accent/50 p-12 hover:border-accent/70 transition-all duration-300 animate-fade-in">
+            <Card className="wuwa-card bg-gradient-to-r from-accent/20 to-accent/10 backdrop-blur border-accent/50 p-12 hover:border-accent/70 transition-all duration-300 animate-fade-in">
               <h2 className="text-4xl md:text-5xl font-bold mb-8 font-playfair text-accent text-center">
                 결론
               </h2>
