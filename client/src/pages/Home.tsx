@@ -96,7 +96,7 @@ export default function Home() {
             별바다의 끝에서 닿은 메아리
           </h2>
           <p
-            className="text-lg text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in"
+            className="text-lg text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed"
             style={{ animationDelay: "0.4s" }}
           >
             세계가 영웅을 구한다는 이야기
