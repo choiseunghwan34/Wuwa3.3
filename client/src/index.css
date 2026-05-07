@@ -385,6 +385,11 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes titleRise {
+  from { opacity: 0; transform: translateY(34px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -514,6 +519,7 @@ input:focus-visible {
     font-weight: 600 !important;
     margin-bottom: 18px !important;
     letter-spacing: 0;
+    animation: titleRise 0.9s ease-out 0.18s both !important;
   }
 
   .story-preserve-page > section:first-of-type p {
@@ -529,7 +535,7 @@ input:focus-visible {
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     background-clip: text !important;
-    animation: none !important;
+    animation: titleRise 0.9s ease-out both !important;
   }
 
   .story-preserve-page h2 {
