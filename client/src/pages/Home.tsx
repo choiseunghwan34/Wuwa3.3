@@ -73,18 +73,14 @@ export default function Home() {
 
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1
-            className="text-6xl md:text-7xl font-bold mb-6 font-playfair animate-fade-in"
+            className="text-6xl md:text-7xl font-bold mb-6 font-playfair animate-fade-in text-transparent bg-clip-text bg-gradient-to-br from-[#a8d8ff] via-[#d8a8ff] to-[#a8d8ff]"
             style={{
               fontSize: "clamp(3rem, 8vw, 6.7rem)",
               fontWeight: 900,
               lineHeight: 1.05,
               marginBottom: "22px",
-              textShadow: "0 6px 20px rgba(0,0,0,.55)",
-              background:
-                "linear-gradient(135deg, #a8d8ff 0%, #d8a8ff 50%, #a8d8ff 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
+              // textShadow 대신 filter 속성으로 그림자를 줍니다 (그라데이션 충돌 방지)
+              filter: "drop-shadow(0px 6px 10px rgba(0,0,0,0.4))",
             }}
           >
             명조 3.3
